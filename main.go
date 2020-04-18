@@ -26,17 +26,7 @@ func main() {
 	}
 
 	if *list {
-		fmt.Println("Pretty Boolean styles:")
-		fmt.Println("     yes: yes, no")
-		fmt.Println("      ok: ok, not ok")
-		fmt.Println("    okay: okay, not okay")
-		fmt.Println("    true: true, false")
-		fmt.Println("       t: t, f")
-		fmt.Println("       0: 0, 1")
-		fmt.Println("  passed: passed, failed")
-		fmt.Println("positive: positive, negative")
-		fmt.Println("    good: good, bad")
-		fmt.Println("   check: \u2705, \u274c")
+		styles.ListStyles()
 		return
 	}
 
