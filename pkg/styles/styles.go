@@ -1,5 +1,11 @@
 package styles
 
+import (
+	"fmt"
+	"github.com/stretchr/testify/require"
+	"testing"
+)
+
 type style struct {
 	ok, notOk string
 }
