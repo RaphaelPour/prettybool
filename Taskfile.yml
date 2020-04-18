@@ -4,7 +4,7 @@ includes:
     _: https://raw.githubusercontent.com/FasterArbeit/task/master/go.yml
 
 vars:
-    PATH: "github.com/3vilcookie/copilot"
-    BINARY_NAME: copilot
-    REPOSITORY_NAME: "3vilcookie/copilot"
+    PATH: "github.com/3vilcookie/sembool"
+    BINARY_NAME: sembool
+    REPOSITORY_NAME: "3vilcookie/sembool"
 
