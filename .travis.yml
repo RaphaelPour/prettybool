@@ -1,0 +1,2 @@
+import:
+- source: https://raw.githubusercontent.com/FasterArbeit/travis/add-go-ci/go.yml
