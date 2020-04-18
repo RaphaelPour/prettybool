@@ -1,6 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"flag"
+	"fmt"
+
+	"github.com/3vilcookie/prettybool/pkg/styles"
+)
 
 var (
 	buildDate    string
@@ -13,6 +18,7 @@ var (
 
 func main() {
 
+	flag.Parse()
 	if *version {
 		fmt.Printf("BuildDate: %s\n", buildDate)
 		fmt.Printf("BuildVersion: %s\n", buildVersion)
@@ -20,15 +26,31 @@ func main() {
 	}
 
 	if *list {
+		fmt.Println("Pretty Boolean styles:")
+		fmt.Println("     yes: yes, no")
 		fmt.Println("      ok: ok, not ok")
 		fmt.Println("    okay: okay, not okay")
 		fmt.Println("    true: true, false")
-		fmt.Println("  passed: passed, failed")
-		fmt.Println("     yes: yes, no")
 		fmt.Println("       t: t, f")
 		fmt.Println("       0: 0, 1")
+		fmt.Println("  passed: passed, failed")
 		fmt.Println("positive: positive, negative")
 		fmt.Println("    good: good, bad")
+		fmt.Println("   check: \u2705, \u274c")
 		return
 	}
+
+	if *style == "" {
+		fmt.Printf("Style is missing")
+		return
+	}
+
+	b, err := styles.GetPrettyBool(*value, *style)
+
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	fmt.Println(b)
 }
