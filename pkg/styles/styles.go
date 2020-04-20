@@ -18,6 +18,10 @@ var (
 		"positive": {ok: "positive", notOk: "negative"},
 		"good":     {ok: "good", notOk: "bad"},
 		"check":    {ok: "\u2705", notOk: "\u274c"},
+		"enabled":  {ok: "enabled", notOk: "disabled"},
+		"on":       {ok: "on", notOk: "off"},
+		"active":   {ok: "active", notOk: "inactive"},
+		"success":  {ok: "success", notOk: "failure"},
 	}
 )
 
