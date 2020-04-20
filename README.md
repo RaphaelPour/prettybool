@@ -2,7 +2,7 @@
 Pretty prints boolean values in various styles.
 
 ## Styles
-Pretty Boolean styles (via `styles.ListStyles()`):
+Pretty Boolean styles (via `ListStyles()`):
 
 | Style    | True     | False    |
 | -------- | -------- | -------- |
@@ -22,14 +22,7 @@ Pretty Boolean styles (via `styles.ListStyles()`):
 ## Example
 
 ```go
-pretty, err := styles.GetPrettyBool(true, "passed")
-
-if err != nil {
-    fmt.Println("Style does not exist")
-    return
-}
-
-fmt.Printf("Tests: %s\n", pretty)
+fmt.Println("Tests: %s\n", styles.GetPrettyBool(true, "passed"))
 
 // Tests: passsed
 ```
