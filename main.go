@@ -30,17 +30,5 @@ func main() {
 		return
 	}
 
-	if *style == "" {
-		fmt.Printf("Style is missing")
-		return
-	}
-
-	b, err := styles.GetPrettyBool(*value, *style)
-
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-
-	fmt.Println(b)
+	fmt.Println(styles.GetPrettyBool(*value, *style))
 }

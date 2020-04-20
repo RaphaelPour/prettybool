@@ -7,11 +7,16 @@ import (
 
 func TestInvalidStyle(t *testing.T) {
 
-	_, err := GetPrettyBool(true, "")
-	require.NotNil(t, err)
+	pb := GetPrettyBool(true, "")
+	require.Equal(t, pb, "")
 }
 
-func TestValidStyle(t *testing.T) {
-	_, err := GetPrettyBool(true, "ok")
-	require.Nil(t, err)
+func TestValidStyleWithTrue(t *testing.T) {
+	pb := GetPrettyBool(true, "ok")
+	require.Equal(t, pb, "ok")
+}
+
+func TestValidStyleWithFalse(t *testing.T) {
+	pb := GetPrettyBool(false, "ok")
+	require.Equal(t, pb, "not ok")
 }
