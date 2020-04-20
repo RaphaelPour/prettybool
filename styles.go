@@ -1,4 +1,4 @@
-package styles
+package prettybool // import "github.com/3vilcookie/prettybool"
 
 import (
 	"fmt"

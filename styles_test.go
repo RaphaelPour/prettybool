@@ -1,4 +1,4 @@
-package styles
+package prettybool
 
 import (
 	"github.com/stretchr/testify/require"

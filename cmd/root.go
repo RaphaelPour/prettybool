@@ -1,10 +1,10 @@
-package main // import "github.com/3vilcookie/prettybool"
+package cmd // import "github.com/3vilcookie/prettybool/cmd"
 
 import (
 	"flag"
 	"fmt"
 
-	"github.com/3vilcookie/prettybool/pkg/styles"
+	"github.com/3vilcookie/prettybool"
 )
 
 var (
