@@ -1,4 +1,4 @@
-package cmd // import "github.com/3vilcookie/prettybool/cmd"
+package main // import "github.com/3vilcookie/prettybool/cmd"
 
 import (
 	"flag"
@@ -26,9 +26,9 @@ func main() {
 	}
 
 	if *list {
-		styles.ListStyles()
+		prettybool.ListStyles()
 		return
 	}
 
-	fmt.Println(styles.GetPrettyBool(*value, *style))
+	fmt.Println(prettybool.GetPrettyBool(*value, *style))
 }
