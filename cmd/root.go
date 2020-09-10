@@ -1,4 +1,4 @@
-package main // import "github.com/3vilcookie/prettybool/cmd"
+package main // import "github.com/RaphaelPour/prettybool/cmd"
 
 import (
 	"flag"
