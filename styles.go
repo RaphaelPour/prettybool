@@ -1,4 +1,4 @@
-package prettybool // import "github.com/3vilcookie/prettybool"
+package prettybool // import "github.com/RaphaelPour/prettybool"
 
 import (
 	"fmt"
