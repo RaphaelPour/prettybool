@@ -4,9 +4,9 @@ includes:
     _: https://raw.githubusercontent.com/FasterArbeit/task/master/go.yml
 
 vars:
-    PATH: "github.com/3vilcookie/prettybool"
+    PATH: "github.com/RaphaelPour/prettybool"
     BINARY_NAME: prettybool
-    REPOSITORY_NAME: "3vilcookie/prettybool"
+    REPOSITORY_NAME: "RaphaelPour/prettybool"
 
 tasks:
   bin:
