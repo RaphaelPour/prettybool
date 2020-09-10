@@ -1,4 +1,4 @@
-module github.com/3vilcookie/prettybool
+module github.com/RaphaelPour/prettybool
 
 go 1.14
 
