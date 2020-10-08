@@ -22,7 +22,7 @@ Pretty Boolean styles (via `ListStyles()`):
 ## Example
 
 ```go
-fmt.Println("Tests: %s\n", styles.GetPrettyBool(true, "passed"))
+fmt.Printf("Tests: %s\n", styles.GetPrettyBool(true, "passed"))
 
 // Tests: passsed
 ```
