@@ -1,4 +1,4 @@
-# prettybool
+# prettybool [![Build Status](https://travis-ci.com/RaphaelPour/prettybool.svg?branch=master)](https://travis-ci.com/RaphaelPour/prettybool)
 Pretty prints boolean values in various styles.
 
 ## Styles
