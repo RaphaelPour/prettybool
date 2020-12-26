@@ -1,3 +1,9 @@
+# For next release
+  * **Raphael Pour**
+    * Updated account name
+
+*Not released yet*
+
 # Minor Release v0.2.0 (2020-04-21)
   * **Raphael Pour**
     * Add new styles enabled, on, active and success
