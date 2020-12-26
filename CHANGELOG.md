@@ -1,8 +1,8 @@
-# For next release
+# Minor Release v0.3.0 (2020-12-26)
   * **Raphael Pour**
     * Updated account name
 
-*Not released yet*
+*Released by Raphael Pour <info@raphaelpour.de>*
 
 # Minor Release v0.2.0 (2020-04-21)
   * **Raphael Pour**
