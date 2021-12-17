@@ -24,5 +24,5 @@ Pretty Boolean styles (via `ListStyles()`):
 ```go
 fmt.Printf("Tests: %s\n", styles.GetPrettyBool(true, "passed"))
 
-// Tests: passsed
+// Tests: passed
 ```
