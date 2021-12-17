@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/3vilcookie/prettybool"
+	"github.com/RaphaelPour/prettybool"
 )
 
 var (
